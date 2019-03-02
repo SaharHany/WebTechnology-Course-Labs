@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Page</title>
+</head>
+<style>
+
+body{
+	background-image: linear-gradient(to bottom right,#5c949c, #e1fbe7);
+	
+	color : #e1fbe7;
+
+}
+
+.registerContainer{
+	background-color: #475d7c;
+	padding: 10px;	
+	margin-left: 430px;
+	font-size : 13pt;
+
+	width:450px;
+}
+
+input[type=submit],input[type=reset]{
+	width:75px;
+	height:30px;
+	background-color : #b8d2cb;
+	color: #475d7c;
+	font-size : 12pt;
+	font-style:italic;
+	font-weight : bold ;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #475d7c;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #b8d2cb;
+}
+
+
+
+</style>
+
+<body>
+
+<nav>
+
+<ul>
+<li><a name="myhomepage" href="myhomepage.html" target="_blank">Home</a><li>
+<li><a name="about" href="cvpage.html" target="_blank">About</a><li>
+<li><a name="login" href="loginpage.html" target="_blank">Login</a><li>
+<li><a name="welcomepage" href="welcomepage.html" target="_blank">Welcome Page</a><li>
+<li><a name="sitemap" href="sitedirectory.html" target="_blank">SiteMap</a><li>
+<ul>
+
+</nav>
+
+<br>
+<div class="registerContainer">
+<h2 style="  text-align: center;">Contact Us</h2>
+<form action="home.html">
+
+<fieldset>
+    <legend style="color:#b8d2cb;">1) Account Information:</legend>
+    Username* 
+    <input type="text" name="username" style="margin-left: 70px;" required>
+    <br>
+    Password* 
+    <input type="password" name="password" style="margin-left: 74px;" required>
+    <br>
+    Confirm Password* 
+    <input type="password" name="confirmPassword" style="margin-left: 10px;" required>
+    <br>
+    Credit Card No* 
+    <input type="text" name="creditcardNo" style="margin-left: 33px;" required>
+    <br>
+ </fieldset>
+
+<br>
+
+<fieldset>
+    <legend style="color:#b8d2cb;">2)Personal Information:</legend>
+    Name* 
+    <input type="text" name="name" style="margin-left: 81px;" required>
+    <br>
+    Date of Birth* 
+    <input type="date" name="birthdate" style="margin-left: 31px;" required>
+    <br>
+    Favourite Color 
+    <input type="color" name="favColor" style="margin-left: 19px;">
+    <br>
+    Profile Photo(s) 
+    <input type="file" name="photo" style="margin-left: 18px;">
+    <br>
+	Favourite Browser 
+    <input type="text" name="favbrowser">
+    <br>
+    
+ </fieldset>
+
+<br>
+
+<fieldset>
+    <legend style="color:#b8d2cb;">3)Company Information:</legend>
+    No. of Employees 
+    <input type="number" name="noofemps" style="margin-left: 20px;">
+    <br>
+    Estimated Revenue 
+    <input type="range" name="estimatedrevenue" min="0" max="100" value="0" style="margin-top: 25px; margin-left: 10px;">
+    <br>
+ </fieldset>
+
+<br>
+
+<fieldset>
+    <legend style="color:#b8d2cb;">4)Contact Information:</legend>
+    Email Address(es)* 
+    <input type="text" name="email" style="margin-left: 10px;" required>
+    <br>
+    Phone Number
+    <input type="tel" name="phoneNo" style="margin-left: 43px;">
+    <br>
+	Website URL
+	<input type="url" name="websiteurl" style="margin-left: 53px;">
+    <br>
+	
+ </fieldset>
+
+<br>
+
+<fieldset>
+<input type="submit" value="Submit" style="	margin-left: 140px;">
+<input type="reset" value="Cancel">
+
+ </fieldset>
+
+</form>
+
+</div>
+
+</body>
+</html>
